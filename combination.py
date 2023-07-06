@@ -8,10 +8,7 @@ from openpyxl import Workbook
 import get_data as dg
 import tools as tool
 
-# 创建股票信息数组
 stock_list = []
-# 临时存储股票分红融资数据
-stock_red_dict = {}
 
 
 def get_info(list_url, filename):
